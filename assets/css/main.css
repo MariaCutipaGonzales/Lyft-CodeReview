@@ -1,0 +1,274 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+header{
+	position: fixed;
+	z-index: 1000;
+	color: white;
+	font-size: 1.3rem;
+	width: 100%;
+}
+
+nav{
+	display: inline-block;
+	padding-left: 100px;
+	padding-top: 30px;
+	width: 100%;
+}
+.nav-ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    color:#ffffff;
+    margin-bottom: 20px;
+}
+.nav-ul li {
+	float: right;
+	margin-right: 10px;
+}
+.nav-ul li a{
+	display: block;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+	cursor: pointer;
+}
+.nav-ul li a:hover{
+    color: rgb(255,0,191);
+}
+#login{
+	border:1px solid white;
+	border-radius: 8px;
+}
+#sign{
+	display: none;
+	border-radius: 8px;
+	border:1px solid rgb(255,0,191);
+}
+#login:hover{
+	background-color:rgb(98,85,114);
+	color:white;
+	border-radius: 8px;
+}
+#logo{
+	width: 75px;
+	height: 45px;
+	float: left;
+	left: 0;
+	margin-right: 400px;
+}
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+
+.form{
+	z-index: 300;
+	width: 600px;
+	right: 0px;
+	background: white;
+	top: 130px;
+	position: absolute;
+}
+.cnt-form{
+	width: 520px;
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+.cnt-form h1{
+	color: #352384;
+	font-size: 2.5rem;
+}
+.cnt-form p{
+	padding-top: 10px;
+	color: #352384;
+}
+.cnt-form button{
+	cursor: pointer;
+	margin-top: 10px;
+	padding: 20px 25px;
+	font-size: 1.1	rem;
+	color: white;
+	border-color: transparent!important;
+	border-radius: 10px;
+	background: #ff00bf;
+}
+input[type="text"]{
+	margin-top: 20px;
+	padding:8px;
+	display:inline-block;
+	border:none;
+	border-bottom:1px solid #ccc;
+	width:100%;
+	outline: 0px;
+}
+.cmmt{
+	font-size: 0.7rem;
+}
+.cmmt a{
+	color: #ff00bf;
+	text-decoration: none;
+}
+.section-1{
+	background: linear-gradient(#76278f,#2B1E66);
+	width: 100%;
+	display: inline-block;
+	height: 600px;
+	margin-top:-10px;
+}
+.section-video{
+	background: white;
+	width: 100%;
+	display: inline-block;
+	height: 450px;
+}
+.sec-left{
+	display: inline-block;
+	width: 35%;
+	height: 500px;
+}
+.cnt-left{
+	padding-top: 100px;
+	width: 80%;
+	margin:auto;
+	color: #333447;
+}
+.cnt-left h4{
+	padding-bottom: 8px;
+}
+.cnt-left h1{
+	padding-bottom: 20px;
+}
+.cnt-left p{
+	font-style: normal;
+	font-variant: normal;
+	line-height: 25px;
+	text-align: left;
+}
+#cnt-info-left{
+	display: inline-block;
+	margin-top: 60px;
+	margin-left: 170px;
+	width: 470px;
+	color: white;
+}
+#cnt-info-left p{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#cnt-info-rigth{
+	margin-top: 60px;
+	display: inline-block;
+	float: right;
+}
+#cnt-info-rigth img{
+	width: 500px;
+}
+.cnt-rigth{
+	width: 65%;
+	height: 100%;
+	float: right;
+}
+
+.cnt-left-video{
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+
+footer{
+	background: #333447;
+	text-align: center;
+	color:#bfc7d9;
+}
+footer h3{
+	color:#bfc7d9;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+
+#foot-left,#foot-center,#foot-left,#foot-r-img{
+	display: inline-block;
+	text-align: left;
+	margin-right: 130px;
+}
+#foot-r-img{
+	float: right;
+	margin-left: 40px;
+}
+#foot-r-img img{
+	width: 140px;
+	height: 40px;
+}
+.footer-cnt{
+	display: inline-block;
+    text-align: center;
+    color:#bfc7d9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer-cnt ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.footer-cnt li a{
+	display: block;
+    color: white;
+    padding: 14px 18px;
+    text-decoration: none;
+	cursor: pointer;
+	font-weight: normal;
+	font-style: normal;
+}
+.footer-cnt li a:hover{
+ 	color: rgb(255,0,191);
+ 	text-decoration: underline;
+}
+#fot-copy{
+	height:130px;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+#fot-copy p{
+	margin-top: 35px;
+}
+#social{
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+#social span{
+	margin-right: 40px;
+}
+.cnt-video{
+	width: 100%;
+	height: 100%;
+}
+.video-src{
+	width: 100%;
+	height: 100%;
+}
+.error{
+	background: url(../img/error.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 482px 0px;
+    outline: 0px;
+}
+
+.error input{
+	border-bottom:2px solid red;
+}
